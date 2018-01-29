@@ -14,7 +14,7 @@ using Harmony;
 using System.Reflection;
 using System.IO;
 
-namespace ItemSearch
+namespace ShopSearch
 {
     public class ShopSearchPlugin : ITMPlugin
     {

@@ -10,7 +10,7 @@ using System.Linq;
 using System.Reflection;
 using System.Text;
 
-namespace ItemSearch.Patch
+namespace ShopSearch.Patch
 {
     [HarmonyPatch]
     public class ShopMenuPatch
