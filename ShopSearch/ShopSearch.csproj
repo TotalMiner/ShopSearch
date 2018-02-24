@@ -115,7 +115,7 @@
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\XNA Game Studio\Microsoft.Xna.GameStudio.targets" Condition="Exists('$(MSBuildExtensionsPath)\Microsoft\XNA Game Studio\Microsoft.Xna.GameStudio.targets')" />
-  <PropertyGroup Condition="Exists('$(HOMEDRIVE)$(HOMEPATH)\Documents\My Games\TotalMiner\Mods\$(ProjectName)')">
+  <PropertyGroup Condition="Exists('$(HOMEDRIVE)$(HOMEPATH)\Documents\My Games\TotalMiner\Mods\')">
     <PostBuildEvent>xcopy /Y /E /I "$(TargetPath)" "$(ProjectDir)\Install\"
 xcopy /Y /E /I "$(ProjectDir)\Content" "$(ProjectDir)\Install"
 xcopy /Y /E /I "$(ProjectDir)\Install" "$(HOMEDRIVE)$(HOMEPATH)\Documents\My Games\TotalMiner\Mods\$(ProjectName)"</PostBuildEvent>
