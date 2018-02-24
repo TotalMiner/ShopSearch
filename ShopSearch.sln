@@ -1,29 +1,16 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27004.2009
-MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopSearch", "ShopSearch\ShopSearch.csproj", "{B9FF5797-1C40-459A-97D2-C3C68E49A2FB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopSearch", "ShopSearch\ShopSearch.csproj", "{650F6F4F-79F8-41F1-945D-AC4678C5CC80}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
-		Debug|x86 = Debug|x86
 		Release|Any CPU = Release|Any CPU
-		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B9FF5797-1C40-459A-97D2-C3C68E49A2FB}.Debug|Any CPU.ActiveCfg = Debug|x86
-		{B9FF5797-1C40-459A-97D2-C3C68E49A2FB}.Debug|x86.ActiveCfg = Debug|x86
-		{B9FF5797-1C40-459A-97D2-C3C68E49A2FB}.Debug|x86.Build.0 = Debug|x86
-		{B9FF5797-1C40-459A-97D2-C3C68E49A2FB}.Release|Any CPU.ActiveCfg = Release|x86
-		{B9FF5797-1C40-459A-97D2-C3C68E49A2FB}.Release|x86.ActiveCfg = Release|x86
-		{B9FF5797-1C40-459A-97D2-C3C68E49A2FB}.Release|x86.Build.0 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {5B75A1EF-E26B-4DDF-9837-65F03763E071}
+		{650F6F4F-79F8-41F1-945D-AC4678C5CC80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{650F6F4F-79F8-41F1-945D-AC4678C5CC80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{650F6F4F-79F8-41F1-945D-AC4678C5CC80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{650F6F4F-79F8-41F1-945D-AC4678C5CC80}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
