@@ -26,11 +26,6 @@ namespace ShopSearch
             
         }
 
-        public void UnloadMod()
-        {
-            
-        }
-
         public bool HandleInput(ITMPlayer player)
         {
             return false;

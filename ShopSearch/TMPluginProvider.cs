@@ -31,11 +31,6 @@ namespace ShopSearch
             return null;
         }
 
-        public ITMPluginNet GetPluginNet()
-        {
-            return null;
-        }
-
         public ITMPluginBlocks GetPluginBlocks()
         {
             return null;
